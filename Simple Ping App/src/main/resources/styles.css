@@ -1,0 +1,150 @@
+.list-view-host {
+    -fx-background-color: #ecf0f1;
+    -fx-pref-height:700px;
+}
+
+.list-view-host .list-cell {
+    -fx-background-color: #ecf0f1;
+    -fx-border-color: transparent;
+    -fx-padding: 10px;
+    -fx-cursor: hand;
+}
+
+.list-view-host .list-cell .label {
+    -fx-text-fill: #2980b9;
+    -fx-font-size: 14px;
+}
+
+.list-view-host .list-cell:selected {
+    -fx-background-color: #3498db;
+}
+
+.button-host {
+    -fx-background-color: #2980b9;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-pref-width: 120px;
+    -fx-pref-height: 40px;
+    -fx-cursor:hand;
+}
+
+.button-host:hover {
+    -fx-background-color: #3498db;
+}
+
+.button-host:pressed {
+    -fx-background-color: #217dbb;
+}
+
+.list-view-host .list-cell:selected .label {
+    -fx-text-fill: white;
+}
+
+.titled-pane-host {
+    -fx-background-color: #ecf0f1;
+    -fx-border-color: #2980b9;
+    -fx-border-width: 1px;
+    -fx-pref-width:800px;
+    -fx-pref-height:400px;
+}
+
+.main-content{
+    -fx-padding:20px;
+}
+
+.text-section-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2980b9;
+}
+
+.menu-bar {
+    -fx-background-color: #2980b9;
+}
+
+.menu-bar .menu {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+.menu-bar .menu .menu-item {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+.menu-bar .menu .menu-item:hover {
+    -fx-background-color: #3498db;
+}
+
+.menu-bar .menu .menu-item:pressed {
+    -fx-background-color: #217dbb;
+}
+
+.titled-pane-host .title {
+    -fx-background-color: #2980b9;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+.titled-pane-host .content {
+    -fx-background-color: #ecf0f1;
+    -fx-padding: 10px;
+}
+
+.text-area-host {
+    -fx-background-color: #282828;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-pref-width: 650px;
+    -fx-pref-height: 400px;
+    -fx-control-inner-background: #1e1e1e;
+    -fx-highlight-fill: #3e3e3e;
+    -fx-highlight-text-fill: white;
+}
+
+.text-area-host .scroll-pane {
+    -fx-background-color: #1e1e1e;
+}
+
+.text-area-host .scroll-pane .viewport {
+    -fx-background-color: #1e1e1e;
+}
+
+.text-area-host .scroll-pane .content {
+    -fx-background-color: #1e1e1e;
+}
+
+.combo-box-config .combo-box {
+    -fx-background-color: #ecf0f1;
+    -fx-border-color: #2980b9;
+    -fx-border-width: 1px;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+}
+
+.combo-box-config .arrow-button {
+    -fx-background-color: #2980b9;
+    -fx-shape: "M0,0 L7,0 L3.5,4.5 Z";
+    -fx-background-insets: 0;
+}
+
+.combo-box-config .arrow-button:hover {
+    -fx-background-color: #3498db;
+}
+
+.combo-box-config .arrow-button:pressed {
+    -fx-background-color: #217dbb;
+}
+
+.text-field {
+    -fx-background-color: #ecf0f1;
+    -fx-border-color: #2980b9;
+    -fx-border-width: 1px;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+    -fx-prompt-text-fill: #7f8c8d;
+}
+
+.text-field:focused {
+    -fx-border-color: #3498db;
+}
